@@ -1,12 +1,12 @@
 package org.ulpgc.is1.model;
 import java.time.LocalDateTime;
 public class Member {
-    public LocalDateTime date;
+    public LocalDateTime fecha;
     public Member() {
-        this.date = LocalDateTime.now();
+        this.fecha = LocalDateTime.now();
     }
 
     public LocalDateTime getDate() {
-        return date;
+        return fecha;
     }
 }
